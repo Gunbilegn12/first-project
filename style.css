@@ -1,1 +1,138 @@
-.ba
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  background-image: url("./image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 1204px;
+  margin: 30px auto;
+  margin-bottom: 95px;
+}
+.tour {
+  width: 101px;
+  height: 35px;
+}
+.menu {
+  display: flex;
+  gap: 24px;
+}
+.menu-item {
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.languege {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 24px;
+  font-weight: 600px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+}
+.pure-magic {
+  font-family: "Bebas neue", sans-serif;
+  font-size: 80px;
+  color: #e8edf2b8;
+  margin: 0;
+}
+.awaits {
+  font-family: "Bebas nueu", sans-serif;
+  font-size: 250px;
+  color: #fdfdfefa;
+  margin: 0;
+}
+.year {
+  font-family: "Hanuman", serif;
+  font-size: 64px;
+  font-weight: 900;
+  margin: 0;
+  color: #ffffffcc;
+}
+.hero-text {
+  text-align: center;
+}
+.map {
+  background-image: url(/Location\ Container.png);
+}
+.background2 {
+  width: 2250px;
+  height: 512px;
+  background-image: url(./features.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-image: url("./terkhnuur.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: white;
+}
+.box2 {
+  width: 400px;
+  height: 400px;
+  background-image: url("/amarbaysgalan.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 30px;
+}
+.box3 {
+  width: 400px;
+  height: 400px;
+  background-image: url("/khuvsgul.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: white;
+}
+.box4 {
+  width: 400px;
+  height: 400px;
+  background-image: url("/khorgiin\ togoo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: white;
+}
